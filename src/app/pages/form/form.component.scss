@@ -1,0 +1,41 @@
+
+
+.steps-line {
+    position: relative;
+    &:after {
+    content: "";
+    height: 42px;
+    width: 2px;
+    background-color: #1B8354;
+    position: absolute;
+    top: 31px;
+    z-index: 0;
+    }
+}
+.stepper-section{
+    background-color: #F9FAFB;
+    border-radius: 16px;
+}
+.form-control {
+    border:1px solid #9DA4AE;
+}
+.form-control:disabled {
+    background-color: transparent;
+    opacity: 1;
+    border: 1px solid #D2D6DB !important;
+}
+.form-control:disabled::placeholder {
+    color:  #D2D6DB !important;
+}
+.text-muted {
+     color:  #D2D6DB !important;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.search-pl {
+    padding-right: 35px !important;
+}

@@ -1,0 +1,438 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'IBM Plex Sans Arabic' !important;
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+//   width: 1440px;
+  background-color: #F3FCF6;
+}
+
+
+.container {
+  max-width: 1440px !important;
+}
+nav.top-nav {
+    height: 72px;
+    ul {
+        li.nav-item {
+            width: 106px;
+            height: 72px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            position: relative;
+            a {
+                    padding: 0 !important;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    svg {
+                        margin-right: 5px;
+                    }
+            }
+          
+             &:hover {
+                background-color: #f3f4f6;
+               
+                &:after{
+                            content: "";
+                            width: 80%;
+                            height: 4px;
+                            background-color: #9da4ae;
+                            display: block;
+                            position: absolute;
+                            border-radius: 35px;
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            bottom: 0;
+                    }
+            }
+              &.active {
+                background-color: #1b8354;
+                a {
+                    color: #fff;
+                    svg {
+                        fill: #fff;
+                        path {
+                            fill: #fff;
+                        }
+                    }
+                    
+                }
+                &:after{
+                            content: "";
+                            width: 80%;
+                            height: 4px;
+                            background-color: #53c08a;
+                            display: block;
+                            position: absolute;
+                            border-radius: 35px;
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            bottom: 0;
+                    }
+            }
+        }
+    }
+      ul.ul-2 {
+        li.nav-item {
+            width: unset;
+            height: 72px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            position: relative;
+            a {
+                    padding: 0 !important;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    svg {
+                        margin-left: 5px;
+                    }
+            }
+          
+             &:hover {
+                background-color: #f3f4f6;
+               
+                &:after{
+                            content: "";
+                            width: 80%;
+                            height: 4px;
+                            background-color: #9da4ae;
+                            display: block;
+                            position: absolute;
+                            border-radius: 35px;
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            bottom: 0;
+                    }
+            }
+              &.active {
+                background-color: #1b8354;
+                a {
+                    color: #fff;
+                    svg {
+                        fill: #fff;
+                        path {
+                            fill: #fff;
+                        }
+                    }
+                    
+                }
+                &:after{
+                            content: "";
+                            width: 80%;
+                            height: 4px;
+                            background-color: #53c08a;
+                            display: block;
+                            position: absolute;
+                            border-radius: 35px;
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            bottom: 0;
+                    }
+            }
+        }
+    }
+}
+.section-padding {
+     padding: 40px 80px;
+}
+.section-w-padding {
+     padding: 0px 80px;
+}
+.hero-section {
+   background: linear-gradient(45deg, #14573A 0%, #1B8354 100%);
+   color: #fff;
+   min-height: 492px;
+   position: relative;
+   h2 {
+    font-size: 60px;
+   }
+   p{
+    font-size: 20px;
+   }
+ .carousel-indicators{
+    margin-top: 50px;
+    button {
+        width: 16px;
+        height: 16px;
+        border-radius: 50px !important;
+        border:  unset !important;
+    }
+ }
+}
+  .self-align-center {
+    align-self: center;
+    position: static !important;
+   }
+   .flex-basis-100 {
+    flex-basis: 100%;
+   }
+   
+   /*----------- buttons ----------*/
+  .btn-plain-b {
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding:0 16px;
+    border: none;
+    border: 1px solid #D2D6DB;
+    &:hover {
+        background-color: #f3f4f6;
+    }
+   }
+   .btn-green {
+    height: 40px;
+    background-color: #1B8354;
+    border-radius: 4px;
+    padding:0 16px;
+    border: none;
+    color: #fff;
+    margin-right: 16px;
+    // &:hover {
+    //     background-color: #f3f4f6;
+    // }
+   }
+
+   .btn-plain {
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding:0 16px;
+    border: none;
+    &:hover {
+        background-color: #d1e3db;
+    }
+   }
+
+.px-32px {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+// .top-nav ul li {
+//     wi
+// }
+
+/* ------------------ Static Card ---------------*/
+.stats-cards {
+          display: flex; 
+          gap: 20px; 
+         flex-wrap: wrap;
+         padding: 40px 100px;
+article {
+    &.stat-card {
+        flex: 1 1 22%; 
+        text-align: center;
+        figure {
+            span {
+             border-radius: 50px;
+             background-color: #F3FCF6;
+             display: inline-block;
+             padding: 14px;
+            }
+            figcaption {
+                font-size: 48px;
+                color: #14573A;
+                line-height: 60px;
+                font-weight: 400;
+                margin-top: 12px;
+                margin: 24px 0;
+            }
+        }
+    }
+}
+}
+
+
+/*---------------- Service Section ------------*/
+
+ .service-section {
+    background-color: #F9FAFB;
+ }
+
+ /*------------- carousel services ---------*/
+ .pb-80 {
+    padding-bottom: 80px;
+ }
+ .pmng-carousel {
+    position: relative;
+     .p-carousel-prev-button{
+    position: absolute;
+    right: 130px;
+    bottom: 30px;
+      button:hover {
+         background-color: #1b8354 !important;
+    color: #fff !important;
+    }
+}
+ .p-carousel-next-button{
+    position: absolute;
+    right: 80px;
+    bottom: 30px;
+    button:hover {
+         background-color: #1b8354 !important;
+    color: #fff !important;
+    }
+}
+
+.p-carousel-indicator-list {
+        margin-right: auto;
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+    li {
+        button {
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        }
+    }
+}
+ }
+
+
+.pmng-img-carousel {
+     .p-carousel-prev-button{
+    background-color: #F3F4F6;
+    border-radius: 4px;
+}
+ .p-carousel-next-button{
+   background-color: #F3F4F6;
+   border-radius: 4px;
+}
+ }
+article.card {
+    padding: 16px;
+    .card-body {
+        padding: 0;
+        margin-top: 16px;
+        .card-title {
+            font-size: 18px;
+            font-weight: 700;
+           
+        }
+           .card-text {
+            font-size: 16px;
+            font-weight: 400;
+             padding: 6px 0;
+        }
+    }
+}
+ .carousel-card {
+    border-radius: 16px;
+    border: 1px solid #D2D6DB;
+    background-color: #fff;
+    width: 320px;
+    min-height: 276px;
+    padding: 16px;
+    margin: 8px;
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    .description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .car-btn {
+        font-size: 12px;
+        border-radius: 4px;
+        margin-left: 8px;
+    }
+        .car-btn {
+        font-size: 12px;
+        border-radius: 4px;
+        &.grey {
+            background-color: #F9FAFB;
+            border: 1px solid #E5E7EB;
+        }
+        &.blue {
+            background-color: #EFF8FF;
+            border: 1px solid #EFF8FF;
+        }
+        &.green {
+            background-color: #ECFDF3;
+            border: 1px solid #ABEFC6;
+        }
+    }
+
+ }
+  .cs-y-pad {
+         margin: 24px 0;
+    }
+
+
+    .carousel-card-sm {
+        width: 98px;
+        height: 100px;
+        border: 1px solid #D2D6DB;
+        border-radius: 16px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+
+
+
+.font-weight-bold {
+    font-weight: 600;
+}
+.font-weight-normal {
+    font-weight: 300;
+}
+
+
+a.text-primary {
+    color: #1B8354 !important;
+    text-decoration: none;
+}
+
+
+.self-align-center.carousel {
+    align-content: center;
+    height: 100%;
+}
+
+
+@media (max-width: 1200px) {
+   .navbar-collapse.show {
+       background-color: #edfff6 !important;
+        z-index: 9; 
+        .flex-grow-1 {
+           display: block !important;
+            ul {
+                li {
+                    width: 100% !important;
+                }
+            }
+        }
+           ul {
+                li {
+                    width: 100% !important;
+                }
+            }
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-wrapper.d-flex {
+        display: block !important;
+        .card {
+            margin-top: 15px;
+        }
+    }
+ 
+
+}
